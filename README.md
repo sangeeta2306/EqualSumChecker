@@ -1,18 +1,11 @@
-## Getting Started
+## Creating An Equal Sum Checker For Strengthening Arithmetic And Comparison Operations
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Write a method hasEqualSum with 3 parameters of type int.
 
-## Folder Structure
+The method should return boolean and it needs to return true if the sum of the first and second parameter is equal to the third parameter. Otherwise, return false.
 
-The workspace contains two folders by default, where:
+## EXAMPLES OF INPUT/OUTPUT:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- hasEqualSum(1, 1, 1);  should return false since 1 + 1 is not equal to 1
+- hasEqualSum(1, 1, 2);  should return true since 1 + 1 is equal to 2
+- hasEqualSum(1, -1, 0);  should return true since 1 + (-1) is 1 - 1 and is equal to 0
